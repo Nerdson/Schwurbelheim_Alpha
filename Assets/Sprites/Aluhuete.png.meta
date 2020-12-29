@@ -1,0 +1,851 @@
+fileFormatVersion: 2
+guid: c0fe90c95a7890748adf98a237ede0e0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7920685641196602287
+    second: Aluhuete_0
+  - first:
+      213: -1384120003691668730
+    second: Aluhuete_1
+  - first:
+      213: 5195453318209319307
+    second: Aluhuete_2
+  - first:
+      213: -8776357893612604216
+    second: Aluhuete_3
+  - first:
+      213: 8270933885473310818
+    second: Aluhuete_4
+  - first:
+      213: -4548826792348341591
+    second: Aluhuete_5
+  - first:
+      213: 9162816053542798314
+    second: Aluhuete_6
+  - first:
+      213: -3849382435171799883
+    second: Aluhuete_7
+  - first:
+      213: -619371937995018301
+    second: Aluhuete_8
+  - first:
+      213: -1902043154818690057
+    second: Aluhuete_9
+  - first:
+      213: -1975326426118129386
+    second: Aluhuete_10
+  - first:
+      213: 7144209381251298605
+    second: Aluhuete_11
+  - first:
+      213: 4738488721506144047
+    second: Aluhuete_12
+  - first:
+      213: -5382123998034194837
+    second: Aluhuete_13
+  - first:
+      213: 150770971182570737
+    second: Aluhuete_14
+  - first:
+      213: -3309845438179996392
+    second: Aluhuete_15
+  - first:
+      213: 3573466254890263930
+    second: Aluhuete_16
+  - first:
+      213: -4560175638265638859
+    second: Aluhuete_17
+  - first:
+      213: -6307883267587762760
+    second: Aluhuete_18
+  - first:
+      213: 4457796766240727555
+    second: Aluhuete_19
+  - first:
+      213: 526602206646733466
+    second: Aluhuete_20
+  - first:
+      213: -8407133847669932372
+    second: Aluhuete_21
+  - first:
+      213: -6599431307302019033
+    second: Aluhuete_22
+  - first:
+      213: 8061814650327853968
+    second: Aluhuete_23
+  - first:
+      213: 3161534328801411436
+    second: Aluhuete_24
+  - first:
+      213: 5251108152501762004
+    second: Aluhuete_25
+  - first:
+      213: -9089003906439678836
+    second: Aluhuete_26
+  - first:
+      213: 5648187604310105700
+    second: Aluhuete_27
+  - first:
+      213: 6855091630824162653
+    second: Aluhuete_28
+  - first:
+      213: -3949928497717841416
+    second: Aluhuete_29
+  - first:
+      213: -1279625354805110140
+    second: Aluhuete_30
+  - first:
+      213: 2732326005102792518
+    second: Aluhuete_31
+  - first:
+      213: -7004918359489028716
+    second: Aluhuete_32
+  - first:
+      213: -9195264571976816278
+    second: Aluhuete_33
+  - first:
+      213: -6696063356925464141
+    second: Aluhuete_34
+  - first:
+      213: -5786849194546264057
+    second: Aluhuete_35
+  - first:
+      213: 2752578369232173836
+    second: Aluhuete_36
+  - first:
+      213: 8826419945215006303
+    second: Aluhuete_37
+  - first:
+      213: 810597540037638631
+    second: Aluhuete_38
+  - first:
+      213: 6975835997196717842
+    second: Aluhuete_39
+  - first:
+      213: 565980530810948083
+    second: Aluhuete_40
+  - first:
+      213: 4202300346149492762
+    second: Aluhuete_41
+  - first:
+      213: -3958361100727920068
+    second: Aluhuete_42
+  - first:
+      213: -8177894355645208130
+    second: Aluhuete_43
+  - first:
+      213: -6782145280653758441
+    second: Aluhuete_44
+  - first:
+      213: -1974332524229730396
+    second: Aluhuete_45
+  - first:
+      213: -2212430566616416686
+    second: Aluhuete_46
+  - first:
+      213: -6435252512187528437
+    second: Aluhuete_47
+  - first:
+      213: 6976148421341240981
+    second: Aluhuete_48
+  - first:
+      213: 1454891154536531710
+    second: Aluhuete_49
+  - first:
+      213: -2515465379509803275
+    second: Aluhuete_50
+  - first:
+      213: 8563906314207305038
+    second: Aluhuete_51
+  - first:
+      213: -7330618077565337823
+    second: Aluhuete_52
+  - first:
+      213: 732772634937402643
+    second: Aluhuete_53
+  - first:
+      213: 7011266191533550482
+    second: Aluhuete_54
+  - first:
+      213: 2425369195747877423
+    second: Aluhuete_55
+  - first:
+      213: 2029741333245468906
+    second: Aluhuete_0
+  - first:
+      213: -706967108073447696
+    second: Aluhuete_1
+  - first:
+      213: -2272187585765205012
+    second: Aluhuete_2
+  - first:
+      213: 4677559350333846679
+    second: Aluhuete_3
+  - first:
+      213: -5684831133826915301
+    second: Aluhuete_4
+  - first:
+      213: -911331855219223538
+    second: Aluhuete_5
+  - first:
+      213: 7337026448415119050
+    second: Aluhuete_6
+  - first:
+      213: -520976127432544780
+    second: Aluhuete_7
+  - first:
+      213: -7810393572609661303
+    second: Aluhuete_8
+  - first:
+      213: 7026632338701401858
+    second: Aluhuete_9
+  - first:
+      213: 4912219469098573266
+    second: Aluhuete_10
+  - first:
+      213: 7098945405745487682
+    second: Aluhuete_11
+  - first:
+      213: -3336425079432590632
+    second: Aluhuete_12
+  - first:
+      213: -5071573799879038707
+    second: Aluhuete_14
+  - first:
+      213: -1525045465024870097
+    second: Aluhuete_15
+  - first:
+      213: -684253533037242127
+    second: Aluhuete_16
+  - first:
+      213: -7249959262359273371
+    second: Aluhuete_17
+  - first:
+      213: -3367098117239535479
+    second: Aluhuete_18
+  - first:
+      213: -3041708567838399818
+    second: Aluhuete_19
+  - first:
+      213: 1552439664052936287
+    second: Aluhuete_21
+  - first:
+      213: -6034281277555798868
+    second: Aluhuete_22
+  - first:
+      213: 7679434787187783074
+    second: Aluhuete_23
+  - first:
+      213: 4148464834219049665
+    second: Aluhuete_25
+  - first:
+      213: -5940936545836838276
+    second: Aluhuete_26
+  - first:
+      213: 6877233303130477621
+    second: Aluhuete_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Aluhuete_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 96
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae026021df61b2c10800000000000000
+      internalID: 2029741333245468906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 96
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe956f29295036f0800000000000000
+      internalID: -706967108073447696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_2
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 96
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb9967ed619770e0800000000000000
+      internalID: -2272187585765205012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_3
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 96
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794b47442770ae040800000000000000
+      internalID: 4677559350333846679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_4
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 96
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b146a2c043c6b11b0800000000000000
+      internalID: -5684831133826915301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_5
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 96
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e041921918c4a53f0800000000000000
+      internalID: -911331855219223538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdacebe8fe15c8f0800000000000000
+      internalID: -520976127432544780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 64
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9866b9c4d68eb9390800000000000000
+      internalID: -7810393572609661303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 64
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fb19322ec938160800000000000000
+      internalID: 7026632338701401858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_11
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 64
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fd9551c35848260800000000000000
+      internalID: 7098945405745487682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da47b04113a2b1d0800000000000000
+      internalID: -3336425079432590632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 64
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e01105dbade45b0800000000000000
+      internalID: -5382123998034194837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 32
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d092806df762e99b0800000000000000
+      internalID: -5071573799879038707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 32
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f294fd6ca33f5dae0800000000000000
+      internalID: -1525045465024870097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 32
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8520b790b0186f0800000000000000
+      internalID: -684253533037242127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_17
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 32
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560c50b7678f26b90800000000000000
+      internalID: -7249959262359273371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_18
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 32
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9880d0e1a1aa541d0800000000000000
+      internalID: -3367098117239535479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_19
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 32
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2eab75c2ea9c5d0800000000000000
+      internalID: -3041708567838399818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_21
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e1a1736af5b8510800000000000000
+      internalID: 1552439664052936287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_22
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac0f78262de14ca0800000000000000
+      internalID: -6034281277555798868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_23
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5fa166045d29a60800000000000000
+      internalID: 7679434787187783074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_24
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 0
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c614965b8b600eb20800000000000000
+      internalID: 3161534328801411436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_25
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c283d689ce429930800000000000000
+      internalID: 4148464834219049665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aluhuete_26
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72524020bd8d8da0800000000000000
+      internalID: -5940936545836838276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
