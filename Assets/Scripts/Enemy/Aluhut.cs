@@ -11,6 +11,7 @@ public class Aluhut : EnemyAI
     public float attackRadius;
     public Transform homePosition;
     public Animator anim;
+    public int damageToGive;
 
     // Start is called before the first frame update
     void Start()
@@ -36,7 +37,7 @@ public class Aluhut : EnemyAI
             {
                 Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
 
-                changeAnim(temp - transform.position);
+                ChangeAnim(temp - transform.position);
                 myRigidbody.MovePosition(temp);
                 ChangeState(EnemyState.walk);
             }
@@ -49,7 +50,7 @@ public class Aluhut : EnemyAI
         anim.SetFloat("moveY", setVector.y);
     }
 
-    private void changeAnim(Vector2 direction)
+    private void ChangeAnim(Vector2 direction)
     {
         if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
         {
@@ -80,6 +81,14 @@ public class Aluhut : EnemyAI
         if(currentState != newState)
         {
             currentState = newState;
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.CompareTag("Player"))
+        {
+            HealthSystem.HurtPlayer(damageToGive);
         }
     }
 }
