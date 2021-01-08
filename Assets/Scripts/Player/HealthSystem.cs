@@ -32,6 +32,6 @@ public class HealthSystem : MonoBehaviour
     public static void HurtPlayer(int damageToGive)
     {
         currentHealth -= damageToGive;
-        PlayerPrefs.SetInt("PlayerCurrentHealth", currentHealth);
+        PlayerPrefs.SetInt("PlayerCurrentHealth", currentHealth);       
     }
 }

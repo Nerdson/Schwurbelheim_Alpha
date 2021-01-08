@@ -41,7 +41,7 @@ public class EnemyAI : MonoBehaviour
         if (health <= 0)
         {
             Destroy(gameObject);
-            gameManager.AddScore(100);
+            gameManager.AddScore(scoreValue);
         }
     }
 
