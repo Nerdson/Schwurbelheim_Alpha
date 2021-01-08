@@ -18,7 +18,17 @@ public class EnemyAI : MonoBehaviour
     public string enemyName;
     public int baseAttack;
     public float moveSpeed;
+    public int scoreValue;
+    private GameManager gameManager;
 
+    private void Start()
+    {
+        GameObject gameManagerObject = GameObject.FindWithTag("GameManager");
+        if (gameManagerObject != null)
+        {
+            gameManager = gameManagerObject.GetComponent<GameManager>();
+        }
+    }
 
     private void Awake()
     {
@@ -28,12 +38,13 @@ public class EnemyAI : MonoBehaviour
     private void TakeDamage(float damage)
     {
         health -= damage;
-        if(health <= 0)
+        if (health <= 0)
         {
-            this.gameObject.SetActive(false);
+            Destroy(gameObject);
+            gameManager.AddScore(100);
         }
     }
-    
+
     public void Knock(Rigidbody2D myRigidbody, float knockTime, float damage)
     {
         StartCoroutine(KnockCo(myRigidbody, knockTime));

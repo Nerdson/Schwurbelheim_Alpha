@@ -172,11 +172,13 @@ MonoBehaviour:
   enemyName: "Aluhut (m\xE4nnlich)"
   baseAttack: 1
   moveSpeed: 10
-  target: {fileID: 0}
+  scoreValue: 100
+  target: {fileID: 4616917473661366960, guid: 4179bbee17c66c44fa73ac041e144dce, type: 3}
   chaseRadius: 15
   attackRadius: 1
   homePosition: {fileID: 0}
   anim: {fileID: 4389702880491898662}
+  damageToGive: 1
 --- !u!61 &576749728
 BoxCollider2D:
   m_ObjectHideFlags: 0
