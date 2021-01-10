@@ -2732,7 +2732,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 5
-  healthBar: {fileID: 1327618189}
 --- !u!1001 &1111199665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5352,6 +5351,11 @@ PrefabInstance:
     - target: {fileID: 5641111963187959410, guid: 54380c132f6fcab4f8d21e15e4979156,
         type: 3}
       propertyPath: m_Name
+      value: GameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5641111963187959410, guid: 54380c132f6fcab4f8d21e15e4979156,
+        type: 3}
+      propertyPath: m_TagString
       value: GameManager
       objectReference: {fileID: 0}
     - target: {fileID: 5641111963187959411, guid: 54380c132f6fcab4f8d21e15e4979156,
