@@ -19,9 +19,9 @@ public class EnemyAI : MonoBehaviour
     public int baseAttack;
     public float moveSpeed;
     public int scoreValue;
-    private GameManager gameManager;
+    protected GameManager gameManager;
 
-    private void Start()
+    protected void Start()
     {
         GameObject gameManagerObject = GameObject.FindWithTag("GameManager");
         if (gameManagerObject != null)

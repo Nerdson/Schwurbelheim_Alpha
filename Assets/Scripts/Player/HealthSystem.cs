@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,12 +7,13 @@ public class HealthSystem : MonoBehaviour
     public int maxHealth = 5;
     public static int currentHealth;
 
-    public Healthbar healthBar;
+    private Healthbar _healthBarScript;
 
-    private void Start()
+    void Start()
     {
         currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
+        _healthBarScript = GameObject.Find("Healthbar").GetComponent<Healthbar>();
+        _healthBarScript.SetMaxHealth(maxHealth);
     }
 
     
@@ -29,9 +30,10 @@ public class HealthSystem : MonoBehaviour
         }
     }
 
-    public static void HurtPlayer(int damageToGive)
+    public void HurtPlayer(int damageToGiveParam)
     {
-        currentHealth -= damageToGive;
+        currentHealth -= damageToGiveParam;
+        _healthBarScript.SetHealth(currentHealth);
         PlayerPrefs.SetInt("PlayerCurrentHealth", currentHealth);       
     }
 }
