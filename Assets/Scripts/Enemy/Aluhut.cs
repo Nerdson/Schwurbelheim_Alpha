@@ -13,9 +13,12 @@ public class Aluhut : EnemyAI
     public Animator anim;
     public int damageToGive;
 
-    // Start is called before the first frame update
-    void Start()
+    // Call Start method on child-class with new key
+    new void Start()
     {
+        // Call start method on base-class EnemyAI, without this call, the Start method will not be executed
+        base.Start();
+        
         currentState = EnemyState.idle;
         myRigidbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();

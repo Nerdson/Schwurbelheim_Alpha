@@ -17,9 +17,11 @@ public class GameManager : MonoBehaviour
     }
 
 
-    public void AddScore(int scoreValue = 100)
+    public void AddScore(int scoreValueParam)
     {
-        score += 100;
+        // variable EnemyAi.scoreValue is the argument filled into the placeholder variable scoreValue 
+        // the value itself is defined on the enemy game objects
+        score += scoreValueParam;
         UpdateScore();
     }
 
