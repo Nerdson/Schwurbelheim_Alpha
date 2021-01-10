@@ -12,6 +12,8 @@ public class Aluhut : EnemyAI
     public Transform homePosition;
     public Animator anim;
     public int damageToGive;
+    
+    private HealthSystem _healthSystemScript;
 
     // Call Start method on child-class with new key
     new void Start()
@@ -23,6 +25,8 @@ public class Aluhut : EnemyAI
         myRigidbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         target = GameObject.FindWithTag("Player").transform;
+        
+        _healthSystemScript = GameObject.Find("Player").GetComponent<HealthSystem>();
     }
 
     // Update is called once per frame
@@ -91,7 +95,7 @@ public class Aluhut : EnemyAI
     {
         if (col.gameObject.CompareTag("Player"))
         {
-            HealthSystem.HurtPlayer(damageToGive);
+            _healthSystemScript.HurtPlayer(damageToGive);
         }
     }
 }
