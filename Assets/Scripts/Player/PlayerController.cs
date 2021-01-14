@@ -12,8 +12,7 @@ public enum PlayerState
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private GenericAbility currentAbility;
-
+    [Header("Character Stuff")]
     public PlayerState currentState;
     public float speed;
     private Rigidbody2D myRigidbody;
@@ -23,6 +22,14 @@ public class PlayerController : MonoBehaviour
     public Signal playerHealthSignal;
 
     public GameObject projectile;
+
+    [Header("IFrame Stuff")]
+    public Color flashColor;
+    public Color regularColor;
+    public float flashDuration;
+    public int numberOfFlashes;
+    public Collider2D triggerCollider;
+    public SpriteRenderer mySprite;
 
     private Vector2 tempMovement = Vector2.down;
     private Vector2 facingDirection = Vector2.down;
@@ -101,21 +108,37 @@ public class PlayerController : MonoBehaviour
 
     public void Knock(float knockTime, float damage)
     {
+        StartCoroutine(KnockCo(knockTime));
         currentHealth.initialValue -= damage;
         if (currentHealth.initialValue > 0)
         {
             playerHealthSignal.Raise();
-            StartCoroutine(KnockCo(knockTime));
         }
     }
 
     private IEnumerator KnockCo(float knockTime)
     {
-        if(myRigidbody != null)
+        StartCoroutine(FlashCo());
+        if (myRigidbody != null)
         {
             yield return new WaitForSeconds(knockTime);
-            myRigidbody.velocity = Vector2.zero;
+            myRigidbody.velocity = Vector2.one;
             currentState = PlayerState.idle;
         }
+    }
+
+    private IEnumerator FlashCo()
+    {
+        int temp = 0;
+        triggerCollider.enabled = false;
+        while(temp < numberOfFlashes)
+        {
+            mySprite.color = flashColor;
+            yield return new WaitForSeconds(flashDuration);
+            mySprite.color = regularColor;
+            yield return new WaitForSeconds(flashDuration);
+            temp++;
+        }
+        triggerCollider.enabled = true;
     }
 }

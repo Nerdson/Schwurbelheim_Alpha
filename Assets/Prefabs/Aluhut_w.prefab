@@ -126,7 +126,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &1275679889232922863
 BoxCollider2D:
@@ -171,7 +171,7 @@ MonoBehaviour:
   health: 3
   enemyName: Aluhut (weiblich)
   baseAttack: 1
-  moveSpeed: 10
+  moveSpeed: 8
   scoreValue: 100
   target: {fileID: 4616917473661366960, guid: 4179bbee17c66c44fa73ac041e144dce, type: 3}
   chaseRadius: 15
@@ -217,6 +217,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5616d64394129b348a55fc5a90249102, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shot: 1
+  shot: 1.5
   knockTime: 0.5
   damage: 1

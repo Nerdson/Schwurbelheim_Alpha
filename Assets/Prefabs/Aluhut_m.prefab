@@ -152,7 +152,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &4389702880491898659
 MonoBehaviour:
@@ -170,8 +170,8 @@ MonoBehaviour:
   maxHealth: {fileID: 11400000, guid: cc3a6deeca45f164cb41d37e1193a85c, type: 2}
   health: 3
   enemyName: "Aluhut (m\xE4nnlich)"
-  baseAttack: 1
-  moveSpeed: 10
+  baseAttack: 2
+  moveSpeed: 5
   scoreValue: 100
   target: {fileID: 4616917473661366960, guid: 4179bbee17c66c44fa73ac041e144dce, type: 3}
   chaseRadius: 15
@@ -217,6 +217,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5616d64394129b348a55fc5a90249102, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shot: 1
+  shot: 1.5
   knockTime: 0.5
   damage: 1

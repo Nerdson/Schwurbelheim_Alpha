@@ -36,4 +36,11 @@ public class HealthSystem : MonoBehaviour
         _healthBarScript.SetHealth(currentHealth);
         PlayerPrefs.SetInt("PlayerCurrentHealth", currentHealth);       
     }
+
+    public void HealPlayer(int healthToGiveParam)
+    {
+        currentHealth += healthToGiveParam;
+        _healthBarScript.SetHealth(currentHealth);
+        PlayerPrefs.SetInt("PlayerCurrentHealth", currentHealth);
+    }
 }

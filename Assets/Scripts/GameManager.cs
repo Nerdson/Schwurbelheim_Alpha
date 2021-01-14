@@ -25,9 +25,16 @@ public class GameManager : MonoBehaviour
         UpdateScore();
     }
 
+    public void AddTPScore(int tpScoreValueParam)
+    {
+        score += tpScoreValueParam;
+        UpdateScore();
+    }
+
     void UpdateScore()
     {
         scoreText.text = "Score: " + score;
+        PlayerPrefs.SetInt("Final Score", score);
     }
 
     public void EndGame()
