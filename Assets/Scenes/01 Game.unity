@@ -1778,12 +1778,12 @@ PrefabInstance:
     - target: {fileID: 4389702880491898656, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.11
+      value: 4.71
       objectReference: {fileID: 0}
     - target: {fileID: 4389702880491898656, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -32.42
+      value: -36.47
       objectReference: {fileID: 0}
     - target: {fileID: 4389702880491898656, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
@@ -1834,6 +1834,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: chaseRadius
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4389702880491898661, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
@@ -6407,12 +6412,12 @@ PrefabInstance:
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.84
+      value: 5.89
       objectReference: {fileID: 0}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -37.22
+      value: -43.64
       objectReference: {fileID: 0}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
@@ -6835,15 +6840,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aluhut_w
       objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: chaseRadius
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.39
+      value: 2.02
       objectReference: {fileID: 0}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -35.64
+      value: -36.17
       objectReference: {fileID: 0}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
@@ -7879,6 +7889,21 @@ PrefabInstance:
       propertyPath: m_CollisionDetection
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4616917473661366965, guid: 4179bbee17c66c44fa73ac041e144dce,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4616917473661366965, guid: 4179bbee17c66c44fa73ac041e144dce,
+        type: 3}
+      propertyPath: m_UseAutoMass
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4616917473661366965, guid: 4179bbee17c66c44fa73ac041e144dce,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4616917473661366966, guid: 4179bbee17c66c44fa73ac041e144dce,
         type: 3}
       propertyPath: m_Offset.y
@@ -7904,7 +7929,7 @@ PrefabInstance:
     - target: {fileID: 4616917473661366967, guid: 4179bbee17c66c44fa73ac041e144dce,
         type: 3}
       propertyPath: speed
-      value: 25
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4616917473661366967, guid: 4179bbee17c66c44fa73ac041e144dce,
         type: 3}
