@@ -6,7 +6,7 @@ public class HealthSystem : MonoBehaviour
 {
     public int maxHealth = 5;
     public static int currentHealth;
-
+    public AudioSource scream;
     private Healthbar _healthBarScript;
 
     void Start()
@@ -32,6 +32,7 @@ public class HealthSystem : MonoBehaviour
 
     public void HurtPlayer(int damageToGiveParam)
     {
+        scream.Play();
         currentHealth -= damageToGiveParam;
         _healthBarScript.SetHealth(currentHealth);
         PlayerPrefs.SetInt("PlayerCurrentHealth", currentHealth);       

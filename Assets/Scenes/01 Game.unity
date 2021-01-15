@@ -183,6 +183,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 4389702880491898661, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_Name
@@ -385,6 +395,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aluhut_w
       objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -771,6 +791,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 4389702880491898661, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_Name
@@ -845,6 +875,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 4389702880491898661, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_Name
@@ -870,6 +910,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aluhut_w
       objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1138,6 +1188,133 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aaa4cbe3543e1134282c409fbc725c8a, type: 3}
+--- !u!1 &281854247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 281854248}
+  - component: {fileID: 281854249}
+  m_Layer: 0
+  m_Name: Playerscream
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &281854248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281854247}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 577897885}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &281854249
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281854247}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a45e2092584365d44b223c71d9cba4fb, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &297683381 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7469737606284869992, guid: 2b52bf1dfe7f7da4b903a572b01ba134,
@@ -1206,6 +1383,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 4389702880491898661, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_Name
@@ -1372,12 +1559,12 @@ PrefabInstance:
     - target: {fileID: 4389702880491898656, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 46.371124
+      value: 46.63
       objectReference: {fileID: 0}
     - target: {fileID: 4389702880491898656, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 31.149494
+      value: 30.44
       objectReference: {fileID: 0}
     - target: {fileID: 4389702880491898656, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
@@ -1424,6 +1611,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: chaseRadius
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 4389702880491898661, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_Name
@@ -1437,6 +1639,133 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 333708530}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &338298028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 338298029}
+  - component: {fileID: 338298030}
+  m_Layer: 0
+  m_Name: Zombie_scream
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &338298029
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338298028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 577897885}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &338298030
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338298028}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9dcb2b3c4b5a58043989023d5294b44a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &373903741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1571,6 +1900,16 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1626589667}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1840,6 +2179,16 @@ PrefabInstance:
       propertyPath: chaseRadius
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 4389702880491898661, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_Name
@@ -1864,15 +2213,30 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: chaseRadius
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 71.203255
+      value: 70.16
       objectReference: {fileID: 0}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.9925957
+      value: 11.08
       objectReference: {fileID: 0}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
@@ -2107,6 +2471,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: chaseRadius
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 4389702880491898661, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_Name
@@ -2267,7 +2646,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 31a586fc689f1f144835eb2b500a4e54, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2401,7 +2780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 577897885}
   m_Layer: 0
-  m_Name: PickUpSounds
+  m_Name: Sounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2418,6 +2797,12 @@ Transform:
   m_LocalPosition: {x: 40.699474, y: -55.690685, z: -8.120323}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1543371064}
+  - {fileID: 281854248}
+  - {fileID: 1704609181}
+  - {fileID: 1702632138}
+  - {fileID: 338298029}
+  - {fileID: 765628161}
   - {fileID: 1062317517}
   - {fileID: 1472313911}
   m_Father: {fileID: 0}
@@ -2465,12 +2850,12 @@ PrefabInstance:
     - target: {fileID: 4389702880491898656, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 35.70085
+      value: 35.61
       objectReference: {fileID: 0}
     - target: {fileID: 4389702880491898656, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 33.174507
+      value: 34.78
       objectReference: {fileID: 0}
     - target: {fileID: 4389702880491898656, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
@@ -2517,6 +2902,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: chaseRadius
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 4389702880491898661, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_Name
@@ -2649,6 +3049,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 4389702880491898661, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_Name
@@ -2680,6 +3090,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aluhut_w
       objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2835,6 +3255,133 @@ Transform:
   m_Father: {fileID: 1484388220}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &765628160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 765628161}
+  - component: {fileID: 765628162}
+  m_Layer: 0
+  m_Name: PointsUp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &765628161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765628160}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 577897885}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &765628162
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765628160}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 033e97526b746df4f9d5a210dcdf9c00, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &786991131 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4389702880491898656, guid: 10b890dcb1a88b64485380542a496c94,
@@ -2888,6 +3435,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aluhut_w (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: chaseRadius
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3013,6 +3575,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 4389702880491898661, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_Name
@@ -3118,6 +3690,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aluhut_w (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: chaseRadius
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3413,6 +4000,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 4389702880491898661, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_Name
@@ -3586,6 +4183,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aluhut_w
       objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3669,12 +4276,12 @@ PrefabInstance:
     - target: {fileID: 8042730342521511041, guid: aaa4cbe3543e1134282c409fbc725c8a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.7
+      value: 11.94
       objectReference: {fileID: 0}
     - target: {fileID: 8042730342521511041, guid: aaa4cbe3543e1134282c409fbc725c8a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.66
+      value: 12.92
       objectReference: {fileID: 0}
     - target: {fileID: 8042730342521511041, guid: aaa4cbe3543e1134282c409fbc725c8a,
         type: 3}
@@ -3940,6 +4547,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aluhut_w (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4128,7 +4745,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 577897885}
-  m_RootOrder: 0
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1070823751
 GameObject:
@@ -4286,6 +4903,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 5
+  scream: {fileID: 281854249}
 --- !u!212 &1088062975 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 4616917473661366964, guid: 4179bbee17c66c44fa73ac041e144dce,
@@ -4354,6 +4972,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 4389702880491898661, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_Name
@@ -4373,6 +5001,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aluhut_w
       objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: chaseRadius
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4503,12 +5146,12 @@ PrefabInstance:
     - target: {fileID: 4389702880491898656, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 66.3
+      value: 54.74
       objectReference: {fileID: 0}
     - target: {fileID: 4389702880491898656, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.71
+      value: 15.42
       objectReference: {fileID: 0}
     - target: {fileID: 4389702880491898656, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
@@ -4555,6 +5198,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: chaseRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 4389702880491898661, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_Name
@@ -4710,6 +5368,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 4389702880491898661, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_Name
@@ -4784,6 +5452,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aluhut_w (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: chaseRadius
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4881,8 +5564,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -150, y: -40}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -230.3, y: -60.1}
+  m_SizeDelta: {x: 360.50073, y: 90.12518}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1320590182
 MonoBehaviour:
@@ -4930,7 +5613,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.75
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5016,8 +5699,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 150, y: -40}
-  m_SizeDelta: {x: 250, y: 50}
+  m_AnchoredPosition: {x: 208.1, y: -60}
+  m_SizeDelta: {x: 366.29834, y: 73.259674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1327618189
 MonoBehaviour:
@@ -5284,6 +5967,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aluhut_w (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5409,6 +6102,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 4389702880491898661, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_Name
@@ -5484,6 +6187,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: chaseRadius
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 4389702880491898661, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_Name
@@ -5509,6 +6227,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aluhut_w (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5578,6 +6306,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aluhut_w (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5866,7 +6604,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 577897885}
-  m_RootOrder: 1
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1474592396
 PrefabInstance:
@@ -5880,6 +6618,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aluhut_w (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: chaseRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6017,6 +6770,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 4389702880491898661, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_Name
@@ -6093,6 +6856,133 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 199254612}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1543371063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1543371064}
+  - component: {fileID: 1543371065}
+  m_Layer: 0
+  m_Name: Playerdeathscream
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1543371064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543371063}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 577897885}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1543371065
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543371063}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: bea8c0cdb6cfe0845bf4d6f89be063c0, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &1562733714 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
@@ -6241,6 +7131,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: chaseRadius
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 4389702880491898661, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_Name
@@ -6357,6 +7262,260 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1702632137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1702632138}
+  - component: {fileID: 1702632139}
+  m_Layer: 0
+  m_Name: Zombie_deathscream
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1702632138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702632137}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 577897885}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1702632139
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702632137}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b83bb52bc6bc8ab4da3da7768fb7a8d5, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &1704609180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1704609181}
+  - component: {fileID: 1704609182}
+  m_Layer: 0
+  m_Name: Splash
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1704609181
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704609180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 577897885}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1704609182
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704609180}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 6c2fac436d269314d85af409619bfb24, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1720745115
 GameObject:
   m_ObjectHideFlags: 0
@@ -6409,6 +7568,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aluhut_w (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6490,6 +7659,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aluhut_w (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6565,6 +7744,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aluhut_w (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6845,6 +8034,16 @@ PrefabInstance:
       propertyPath: chaseRadius
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6920,6 +8119,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aluhut_w (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6995,6 +8204,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aluhut_w
       objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: chaseRadius
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7262,6 +8486,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 4389702880491898661, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_Name
@@ -7367,6 +8601,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aluhut_w (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 1275679889232922866, guid: db30a88862a583742a250c64d8010753,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 1275679889232922867, guid: db30a88862a583742a250c64d8010753,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7789,6 +9033,16 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1626589667}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: scream
+      value: 
+      objectReference: {fileID: 338298030}
+    - target: {fileID: 4389702880491898659, guid: 10b890dcb1a88b64485380542a496c94,
+        type: 3}
+      propertyPath: deathScream
+      value: 
+      objectReference: {fileID: 1702632139}
     - target: {fileID: 4389702880491898661, guid: 10b890dcb1a88b64485380542a496c94,
         type: 3}
       propertyPath: m_Name
@@ -28070,7 +29324,7 @@ PrefabInstance:
     - target: {fileID: 7196552278474179269, guid: 4e5a741e09880ac41817d44414cd5a85,
         type: 3}
       propertyPath: m_EdgeRadius
-      value: 0.2
+      value: 0.05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e5a741e09880ac41817d44414cd5a85, type: 3}
@@ -28086,6 +29340,11 @@ PrefabInstance:
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 1320590182}
+    - target: {fileID: 7522998007569974889, guid: 120f9de5b9572e144ac0fa4e5778686f,
+        type: 3}
+      propertyPath: pling
+      value: 
+      objectReference: {fileID: 765628162}
     - target: {fileID: 7522998007569974902, guid: 120f9de5b9572e144ac0fa4e5778686f,
         type: 3}
       propertyPath: m_LocalPosition.x

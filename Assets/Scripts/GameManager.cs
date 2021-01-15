@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     bool gameEnded = false;
     public TextMeshProUGUI scoreText;
     public int score;
+    public AudioSource pling;
 
     private void Start()
     {
@@ -23,12 +24,14 @@ public class GameManager : MonoBehaviour
         // the value itself is defined on the enemy game objects
         score += scoreValueParam;
         UpdateScore();
+        pling.Play();
     }
 
     public void AddTPScore(int tpScoreValueParam)
     {
         score += tpScoreValueParam;
         UpdateScore();
+        pling.Play();
     }
 
     void UpdateScore()
@@ -42,7 +45,7 @@ public class GameManager : MonoBehaviour
         if(gameEnded == false)
         {
             gameEnded = true;
-            Invoke("GameOver", 1f);
+            Invoke("GameOver", 0.5f);
         }
     }
 

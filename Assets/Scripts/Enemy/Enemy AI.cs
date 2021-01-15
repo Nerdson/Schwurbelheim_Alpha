@@ -20,6 +20,8 @@ public class EnemyAI : MonoBehaviour
     public float moveSpeed;
     public int scoreValue;
     protected GameManager gameManager;
+    public AudioSource scream;
+    public AudioSource deathScream;
 
     protected void Start()
     {
@@ -41,6 +43,7 @@ public class EnemyAI : MonoBehaviour
         if (health <= 0)
         {
             Destroy(gameObject);
+            deathScream.Play();
             gameManager.AddScore(scoreValue);
         }
     }
@@ -49,6 +52,7 @@ public class EnemyAI : MonoBehaviour
     {
         StartCoroutine(KnockCo(myRigidbody, knockTime));
         TakeDamage(damage);
+        scream.Play();
     }
 
     private IEnumerator KnockCo(Rigidbody2D myRigidbody, float knockTime)
