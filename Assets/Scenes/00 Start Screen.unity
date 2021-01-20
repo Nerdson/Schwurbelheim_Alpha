@@ -1378,7 +1378,7 @@ GameObject:
   - component: {fileID: 1805954161}
   - component: {fileID: 1805954160}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Laufen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1422,7 +1422,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Arrow Keys = Move
+  m_text: Arrow Keys/WASD = Move
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -1511,7 +1511,7 @@ GameObject:
   - component: {fileID: 1874075814}
   - component: {fileID: 1874075813}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: "Schie\xDFen"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1710,7 +1710,7 @@ GameObject:
   - component: {fileID: 1900260500}
   - component: {fileID: 1900260499}
   m_Layer: 5
-  m_Name: Text (TMP) (2)
+  m_Name: Gegner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
