@@ -7,7 +7,7 @@ public class Restart : MonoBehaviour
 {
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetButtonDown("R"))
         {
             SceneManager.LoadScene("01 Game");
         }

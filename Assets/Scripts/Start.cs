@@ -7,7 +7,7 @@ public class Start : MonoBehaviour
 {
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetButtonDown("S"))
         {
             SceneManager.LoadScene("01 Game");
         }

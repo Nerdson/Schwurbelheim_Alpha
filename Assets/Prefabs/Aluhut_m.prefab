@@ -173,6 +173,8 @@ MonoBehaviour:
   baseAttack: 2
   moveSpeed: 5
   scoreValue: 100
+  scream: {fileID: 0}
+  deathScream: {fileID: 0}
   target: {fileID: 4616917473661366960, guid: 4179bbee17c66c44fa73ac041e144dce, type: 3}
   chaseRadius: 15
   attackRadius: 1
@@ -217,6 +219,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5616d64394129b348a55fc5a90249102, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shot: 1.5
+  shot: 1
   knockTime: 0.5
   damage: 1

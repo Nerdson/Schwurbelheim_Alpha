@@ -31,9 +31,6 @@ public class PlayerController : MonoBehaviour
     public Collider2D triggerCollider;
     public SpriteRenderer mySprite;
 
-    private Vector2 tempMovement = Vector2.down;
-    private Vector2 facingDirection = Vector2.down;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -122,7 +119,7 @@ public class PlayerController : MonoBehaviour
         if (myRigidbody != null)
         {
             yield return new WaitForSeconds(knockTime);
-            myRigidbody.velocity = Vector2.one;
+            myRigidbody.velocity = Vector2.zero;
             currentState = PlayerState.idle;
         }
     }
